@@ -77,7 +77,7 @@ public class BaseTest {
         return "C:\\Projects\\SeleniumJava" + testCaseName + ".png";
 
     }
-    
+
     @BeforeMethod(alwaysRun = true)
     public LandingPage launchLandingPageObject() {
         this.landingPage = new LandingPage(driver);
