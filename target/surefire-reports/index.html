@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-RSA" class="navigator-link">
+              <span class="suite-name border-passed">RSA</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-RSA" class="navigator-link ">
+                    <span>C:\Projects\TestNG Selenium RSA\errorsng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-RSA" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-RSA" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-RSA" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-RSA" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-RSA" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-RSA" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RSA" class="hide-methods passed suite-RSA"> (hide)</a> <!-- hide-methods passed suite-RSA -->
+                      <a href="#" panel-name="suite-RSA" class="show-methods passed suite-RSA"> (show)</a> <!-- show-methods passed suite-RSA -->
+                    </span>
+                    <div class="method-list-content passed suite-RSA">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RSA" title="rsa.Tests.ErrorRegisterTests" class="method navigator-link" hash-for-method="adultCheckboxNotSelectedTest">adultCheckboxNotSelectedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RSA" title="rsa.Tests.ErrorLoginTests" class="method navigator-link" hash-for-method="validationTest">validationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RSA" title="rsa.Tests.ErrorRegisterTests" class="method navigator-link" hash-for-method="wrongConfirmPasswordTest">wrongConfirmPasswordTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RSA" title="rsa.Tests.ErrorRegisterTests" class="method navigator-link" hash-for-method="wrongEmailTest">wrongEmailTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RSA" title="rsa.Tests.ErrorRegisterTests" class="method navigator-link" hash-for-method="wrongFirstNameTest">wrongFirstNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RSA" title="rsa.Tests.ErrorRegisterTests" class="method navigator-link" hash-for-method="wrongPasswordTest">wrongPasswordTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RSA" title="rsa.Tests.ErrorRegisterTests" class="method navigator-link" hash-for-method="wrongPhoneNumberTest">wrongPhoneNumberTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RSA -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RSA" class="panel RSA">
+          <div class="suite-RSA-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">rsa.Tests.ErrorRegisterTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="adultCheckboxNotSelectedTest">
+                  </a> <!-- adultCheckboxNotSelectedTest -->
+                  <span class="method-name">adultCheckboxNotSelectedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="wrongConfirmPasswordTest">
+                  </a> <!-- wrongConfirmPasswordTest -->
+                  <span class="method-name">wrongConfirmPasswordTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="wrongEmailTest">
+                  </a> <!-- wrongEmailTest -->
+                  <span class="method-name">wrongEmailTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="wrongFirstNameTest">
+                  </a> <!-- wrongFirstNameTest -->
+                  <span class="method-name">wrongFirstNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="wrongPasswordTest">
+                  </a> <!-- wrongPasswordTest -->
+                  <span class="method-name">wrongPasswordTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="wrongPhoneNumberTest">
+                  </a> <!-- wrongPhoneNumberTest -->
+                  <span class="method-name">wrongPhoneNumberTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RSA-class-passed -->
+          <div class="suite-RSA-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">rsa.Tests.ErrorLoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validationTest">
+                  </a> <!-- validationTest -->
+                  <span class="method-name">validationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RSA-class-passed -->
+        </div> <!-- panel RSA -->
+        <div panel-name="test-xml-RSA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Projects\TestNG Selenium RSA\errorsng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;classes&quot; name=&quot;RSA&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;ErrorHandling&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;ErrorHandling&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;E2E&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;rsa.Tests.AppTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- E2E --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;Login Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;rsa.Tests.LoginTests&quot;/&gt;
+      &lt;class name=&quot;rsa.Tests.ErrorLoginTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;Registration Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;rsa.Tests.ErrorRegisterTests&quot;/&gt;
+      &lt;class name=&quot;rsa.Tests.RegistrationTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Registration Tests --&gt;
+&lt;/suite&gt; &lt;!-- RSA --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RSA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RSA</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">E2E (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login Tests (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Registration Tests (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RSA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RSA</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">ErrorHandling</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">adultCheckboxNotSelectedTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validationTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">wrongConfirmPasswordTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">wrongEmailTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">wrongFirstNameTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">wrongPasswordTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">wrongPhoneNumberTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RSA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RSA</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RSA');
+function tableData_RSA() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validationTest')
+data.setCell(0, 2, 'rsa.Tests.ErrorLoginTests')
+data.setCell(0, 3, 3829);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'wrongEmailTest')
+data.setCell(1, 2, 'rsa.Tests.ErrorRegisterTests')
+data.setCell(1, 3, 3035);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'wrongPhoneNumberTest')
+data.setCell(2, 2, 'rsa.Tests.ErrorRegisterTests')
+data.setCell(2, 3, 3010);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'wrongConfirmPasswordTest')
+data.setCell(3, 2, 'rsa.Tests.ErrorRegisterTests')
+data.setCell(3, 3, 2996);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'wrongPasswordTest')
+data.setCell(4, 2, 'rsa.Tests.ErrorRegisterTests')
+data.setCell(4, 3, 2915);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'adultCheckboxNotSelectedTest')
+data.setCell(5, 2, 'rsa.Tests.ErrorRegisterTests')
+data.setCell(5, 3, 2904);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'wrongFirstNameTest')
+data.setCell(6, 2, 'rsa.Tests.ErrorRegisterTests')
+data.setCell(6, 3, 2710);
+window.suiteTableData['RSA']= { tableData: data, tableDiv: 'times-div-RSA'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <div id="times-div-RSA">
+              </div> <!-- times-div-RSA -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RSA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RSA</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RSA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">rsa.Tests.AppTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">submitOrder</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">rsa.Tests.LoginTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loginTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">rsa.Tests.RegistrationTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">registerTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RSA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">rsa.Tests.ErrorLoginTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">lanuchApp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchCartPageObject</span>
+                <span class="method-start">2329 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchCheckoutPageObject</span>
+                <span class="method-start">2336 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchConfirmationPageObject</span>
+                <span class="method-start">2338 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchLandingPageObject</span>
+                <span class="method-start">2339 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchProductCatalogueObject</span>
+                <span class="method-start">2340 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchRegisterObject</span>
+                <span class="method-start">2341 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validationTest</span>
+                <span class="method-start">2345 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6175 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rsa.Tests.ErrorRegisterTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">lanuchApp</span>
+                <span class="method-start">6383 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchCartPageObject</span>
+                <span class="method-start">7932 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchCheckoutPageObject</span>
+                <span class="method-start">7933 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchConfirmationPageObject</span>
+                <span class="method-start">7935 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchLandingPageObject</span>
+                <span class="method-start">7936 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchProductCatalogueObject</span>
+                <span class="method-start">7937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchRegisterObject</span>
+                <span class="method-start">7939 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">adultCheckboxNotSelectedTest</span>
+                <span class="method-start">7942 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10847 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">lanuchApp</span>
+                <span class="method-start">11052 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchCartPageObject</span>
+                <span class="method-start">12524 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchCheckoutPageObject</span>
+                <span class="method-start">12524 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchConfirmationPageObject</span>
+                <span class="method-start">12526 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchLandingPageObject</span>
+                <span class="method-start">12526 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchRegisterObject</span>
+                <span class="method-start">12527 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchProductCatalogueObject</span>
+                <span class="method-start">12527 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">wrongConfirmPasswordTest</span>
+                <span class="method-start">12529 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15525 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">lanuchApp</span>
+                <span class="method-start">15717 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchCartPageObject</span>
+                <span class="method-start">17060 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchCheckoutPageObject</span>
+                <span class="method-start">17061 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchLandingPageObject</span>
+                <span class="method-start">17062 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchConfirmationPageObject</span>
+                <span class="method-start">17062 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchProductCatalogueObject</span>
+                <span class="method-start">17063 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchRegisterObject</span>
+                <span class="method-start">17064 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">wrongEmailTest</span>
+                <span class="method-start">17065 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20100 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">lanuchApp</span>
+                <span class="method-start">20285 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchCartPageObject</span>
+                <span class="method-start">21753 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchCheckoutPageObject</span>
+                <span class="method-start">21754 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchConfirmationPageObject</span>
+                <span class="method-start">21756 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchLandingPageObject</span>
+                <span class="method-start">21757 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchProductCatalogueObject</span>
+                <span class="method-start">21758 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchRegisterObject</span>
+                <span class="method-start">21759 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">wrongFirstNameTest</span>
+                <span class="method-start">21764 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24475 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">lanuchApp</span>
+                <span class="method-start">24684 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchCartPageObject</span>
+                <span class="method-start">26004 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchCheckoutPageObject</span>
+                <span class="method-start">26006 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchConfirmationPageObject</span>
+                <span class="method-start">26006 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchLandingPageObject</span>
+                <span class="method-start">26007 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchProductCatalogueObject</span>
+                <span class="method-start">26008 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchRegisterObject</span>
+                <span class="method-start">26009 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">wrongPasswordTest</span>
+                <span class="method-start">26011 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28927 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">lanuchApp</span>
+                <span class="method-start">29107 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchCartPageObject</span>
+                <span class="method-start">30407 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchConfirmationPageObject</span>
+                <span class="method-start">30408 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchCheckoutPageObject</span>
+                <span class="method-start">30408 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchRegisterObject</span>
+                <span class="method-start">30409 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchLandingPageObject</span>
+                <span class="method-start">30409 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchProductCatalogueObject</span>
+                <span class="method-start">30409 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">wrongPhoneNumberTest</span>
+                <span class="method-start">30410 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33420 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

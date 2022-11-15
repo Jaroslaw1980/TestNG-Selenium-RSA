@@ -1,0 +1,9 @@
+rsa\TestComponents\BaseTest.class
+rsa\Tests\RegistrationTests.class
+rsa\Tests\ErrorLoginTests.class
+rsa\Tests\ErrorRegisterTests.class
+rsa\TestComponents\BaseTest$1.class
+rsa\TestComponents\Retry.class
+rsa\Tests\AppTest.class
+rsa\TestComponents\Listeners.class
+rsa\Tests\LoginTests.class

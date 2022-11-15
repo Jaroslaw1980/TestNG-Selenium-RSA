@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="RSA">
+    <groups>
+        <run>
+            <include name="ErrorHandling"/>
+        </run>
+    </groups>
+    <test verbose="2" name="E2E">
+        <classes>
+            <class name="rsa.Tests.AppTest"/>
+        </classes>
+    </test>
+    <test thread-count="5" name="Login Tests">
+        <classes>
+            <class name="rsa.Tests.LoginTests"/>
+            <class name="rsa.Tests.ErrorLoginTests"/>
+        </classes>
+    </test>
+    <test thread-count="5" name="Registration Tests">
+        <classes>
+            <class name="rsa.Tests.ErrorRegisterTests"/>
+            <class name="rsa.Tests.RegistrationTests"/>
+        </classes>
+    </test>
+
+</suite>
