@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [RSA]" guice-stage="DEVELOPMENT" verbose="0">
-  <listeners>
-    <listener class-name="rsa.TestComponents.Listeners"/>
-  </listeners>
-  <test thread-count="5" parallel="tests" name="Login Tests(failed)" verbose="0">
+<suite parallel="classes" name="Failed suite [RSA]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="classes" name="Login Tests(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="ErrorHandling"/>
+      </run>
+    </groups>
     <classes>
       <class name="rsa.Tests.ErrorLoginTests">
         <methods>
-          <include name="launchRegisterObject"/>
           <include name="launchConfirmationPageObject"/>
-          <include name="validationTest"/>
+          <include name="launchRegisterObject"/>
           <include name="initializeDriver"/>
           <include name="launchCartPageObject"/>
+          <include name="wrongPasswordTest"/>
           <include name="tearDown"/>
           <include name="launchLandingPageObject"/>
           <include name="launchCheckoutPageObject"/>
@@ -21,4 +23,31 @@
       </class> <!-- rsa.Tests.ErrorLoginTests -->
     </classes>
   </test> <!-- Login Tests(failed) -->
+  <test thread-count="5" parallel="classes" name="Registration Tests(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="ErrorHandling"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="rsa.Tests.ErrorRegisterTests">
+        <methods>
+          <include name="launchConfirmationPageObject"/>
+          <include name="launchRegisterObject"/>
+          <include name="adultCheckboxNotSelectedTest"/>
+          <include name="wrongPasswordTest"/>
+          <include name="launchCartPageObject"/>
+          <include name="tearDown"/>
+          <include name="launchLandingPageObject"/>
+          <include name="wrongPhoneNumberTest"/>
+          <include name="wrongConfirmPasswordTest"/>
+          <include name="wrongEmailTest"/>
+          <include name="initializeDriver"/>
+          <include name="wrongFirstNameTest"/>
+          <include name="launchCheckoutPageObject"/>
+          <include name="launchProductCatalogueObject"/>
+        </methods>
+      </class> <!-- rsa.Tests.ErrorRegisterTests -->
+    </classes>
+  </test> <!-- Registration Tests(failed) -->
 </suite> <!-- Failed suite [RSA] -->
