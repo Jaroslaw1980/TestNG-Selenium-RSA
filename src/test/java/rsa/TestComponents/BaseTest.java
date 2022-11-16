@@ -32,7 +32,7 @@ public class BaseTest {
     public ConfirmationPage confirmationPage;
 
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public WebDriver initializeDriver() throws IOException {
         Properties prop = new Properties();
         FileInputStream file = new FileInputStream(System.
