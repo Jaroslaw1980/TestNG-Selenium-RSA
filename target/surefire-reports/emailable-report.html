@@ -9,21 +9,65 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">RSA</th></tr>
-<tr><td><a href="#t0">E2E</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">11</td><td>ErrorHandling</td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Login Tests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">8 622</td><td>ErrorHandling</td><td></td></tr>
-<tr><td><a href="#t2">Registration Tests</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">45 420</td><td>ErrorHandling</td><td></td></tr>
-<tr><th>Total</th><th class="num">7</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">54 053</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">E2E</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">44 570</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Login Tests</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">54 656</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Registration Tests</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">65 959</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">11</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">165 185</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">RSA</th></tr></tbody><tbody id="t0"><tr><th colspan="4" class="invisible"/></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Login Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">rsa.Tests.ErrorLoginTests</td><td><a href="#m0">validationTest</a></td><td rowspan="1">1668032977164</td><td rowspan="1">3750</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">Registration Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">rsa.Tests.ErrorRegisterTests</td><td><a href="#m1">adultCheckboxNotSelectedTest</a></td><td rowspan="1">1668032985087</td><td rowspan="1">3489</td></tr><tr class="passedeven"><td><a href="#m2">wrongConfirmPasswordTest</a></td><td rowspan="1">1668032992304</td><td rowspan="1">3967</td></tr><tr class="passedeven"><td><a href="#m3">wrongEmailTest</a></td><td rowspan="1">1668033000078</td><td rowspan="1">3920</td></tr><tr class="passedeven"><td><a href="#m4">wrongFirstNameTest</a></td><td rowspan="1">1668033007718</td><td rowspan="1">3791</td></tr><tr class="passedeven"><td><a href="#m5">wrongPasswordTest</a></td><td rowspan="1">1668033015232</td><td rowspan="1">3787</td></tr><tr class="passedeven"><td><a href="#m6">wrongPhoneNumberTest</a></td><td rowspan="1">1668033022847</td><td rowspan="1">3549</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">RSA</th></tr></tbody><tbody id="t0"><tr><th colspan="4">E2E &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">rsa.Tests.AppTest</td><td><a href="#m0">submitOrder</a></td><td rowspan="2">1668603300309</td><td rowspan="2">15250</td></tr><tr class="passedeven"><td><a href="#m1">submitOrder</a></td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Login Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">rsa.Tests.ErrorLoginTests</td><td><a href="#m2">validationTest</a></td><td rowspan="1">1668603322096</td><td rowspan="1">26537</td></tr><tr><th colspan="4">Login Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">rsa.Tests.LoginTests</td><td><a href="#m3">loginTest</a></td><td rowspan="2">1668603310500</td><td rowspan="2">3205</td></tr><tr class="passedeven"><td><a href="#m4">loginTest</a></td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Registration Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">rsa.Tests.ErrorRegisterTests</td><td><a href="#m5">adultCheckboxNotSelectedTest</a></td><td rowspan="1">1668603300307</td><td rowspan="1">4179</td></tr><tr class="passedeven"><td><a href="#m6">wrongConfirmPasswordTest</a></td><td rowspan="1">1668603310494</td><td rowspan="1">4137</td></tr><tr class="passedeven"><td><a href="#m7">wrongEmailTest</a></td><td rowspan="1">1668603322768</td><td rowspan="1">3928</td></tr><tr class="passedeven"><td><a href="#m8">wrongFirstNameTest</a></td><td rowspan="1">1668603331544</td><td rowspan="1">3523</td></tr><tr class="passedeven"><td><a href="#m9">wrongPasswordTest</a></td><td rowspan="1">1668603338769</td><td rowspan="1">3696</td></tr><tr class="passedeven"><td><a href="#m10">wrongPhoneNumberTest</a></td><td rowspan="1">1668603346336</td><td rowspan="1">5418</td></tr><tr class="passedodd"><td rowspan="1">rsa.Tests.RegistrationTests</td><td><a href="#m11">registerTest</a></td><td rowspan="1">1668603355405</td><td rowspan="1">4617</td></tr></tbody>
 </table>
-<h2>E2E</h2><h2>Login Tests</h2><h3 id="m0">rsa.Tests.ErrorLoginTests#validationTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Registration Tests</h2><h3 id="m1">rsa.Tests.ErrorRegisterTests#adultCheckboxNotSelectedTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">rsa.Tests.ErrorRegisterTests#wrongConfirmPasswordTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">rsa.Tests.ErrorRegisterTests#wrongEmailTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">rsa.Tests.ErrorRegisterTests#wrongFirstNameTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">rsa.Tests.ErrorRegisterTests#wrongPasswordTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">rsa.Tests.ErrorRegisterTests#wrongPhoneNumberTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>E2E</h2><h3 id="m0">rsa.Tests.AppTest#submitOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{country=india, password=YaroBaro$4, product=ZARA COAT 3, email=YaroBaro@gmail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">rsa.Tests.AppTest#submitOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{country=india, password=YaroBaro$4, product=ADIDAS ORIGINAL, email=YaroBaro@gmail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Login Tests</h2><h3 id="m2">rsa.Tests.ErrorLoginTests#validationTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.cssSelector: [class*=&apos;flyInOut&apos;]&apos; (tried for 5 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at rsa.abstractComponents.BasePage.waitForVisibilityOfWebElementToAppear(BasePage.java:69)
+	at rsa.pageObjects.LandingPage.wrongPasswordMessage(LandingPage.java:60)
+	at rsa.Tests.ErrorLoginTests.validationTest(ErrorLoginTests.java:12)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: [class*=&apos;flyInOut&apos;]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;LCE53281&apos;, ip: &apos;10.115.146.211&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [78cd47c2-5725-4907-abc2-4f4b12f58650, findElement {using=css selector, value=[class*=&apos;flyInOut&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.5, moz:accessibilityChecks: false, moz:buildID: 20221104133228, moz:debuggerAddress: 127.0.0.1:60023, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16344, moz:profile: C:\Users\jnazar\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:60023/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 78cd47c2-5725-4907-abc2-4f4b12f58650
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 25 more
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">rsa.Tests.LoginTests#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=YaroBaro$4, email=YaroBaro@gmail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">rsa.Tests.LoginTests#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=YaroBaro$4, email=YaroBaro@gmail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Registration Tests</h2><h3 id="m5">rsa.Tests.ErrorRegisterTests#adultCheckboxNotSelectedTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">rsa.Tests.ErrorRegisterTests#wrongConfirmPasswordTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">rsa.Tests.ErrorRegisterTests#wrongEmailTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">rsa.Tests.ErrorRegisterTests#wrongFirstNameTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">rsa.Tests.ErrorRegisterTests#wrongPasswordTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">rsa.Tests.ErrorRegisterTests#wrongPhoneNumberTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">rsa.Tests.RegistrationTests#registerTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
