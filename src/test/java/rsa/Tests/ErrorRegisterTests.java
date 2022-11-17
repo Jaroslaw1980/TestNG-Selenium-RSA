@@ -1,78 +1,68 @@
 package rsa.Tests;
 
 import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import rsa.TestComponents.BaseTest;
 
 
 public class ErrorRegisterTests extends BaseTest {
+    @BeforeMethod(alwaysRun = true)
+    public void startUp() {
+        landingPage.goTo();
+        landingPage.clickRegisterButton();
+    }
 
     @Test(groups = {"ErrorHandling"})
     public void wrongFirstNameTest() throws InterruptedException {
-        this.landingPage.goTo();
-        this.landingPage.clickRegisterButton();
-        this.registerPage.enterFirstName("");
-        this.registerPage.clickSubmitRegisterButton();
+        registerPage.enterFirstName("");
+        registerPage.clickSubmitRegisterButton();
 
-        String errorText = this.registerPage.firstNameError();
+        String errorText = registerPage.firstNameError();
         Assert.assertEquals(errorText, "*First Name is required");
     }
 
     @Test(groups = {"ErrorHandling"})
     public void wrongEmailTest() {
-        this.landingPage.goTo();
-        this.landingPage.clickRegisterButton();
-        this.registerPage.enterEmail("");
-        this.registerPage.clickSubmitRegisterButton();
+        registerPage.enterEmail("");
+        registerPage.clickSubmitRegisterButton();
 
-        String errorText = this.registerPage.emailError();
+        String errorText = registerPage.emailError();
         Assert.assertEquals(errorText, "*Email is required");
     }
 
     @Test(groups = {"ErrorHandling"})
     public void wrongPhoneNumberTest() {
-        this.landingPage.goTo();
-        this.landingPage.clickRegisterButton();
-        this.registerPage.enterPhoneNumber("");
-        this.registerPage.clickSubmitRegisterButton();
+        registerPage.enterPhoneNumber("");
+        registerPage.clickSubmitRegisterButton();
 
-        String errorText = this.registerPage.phoneNumberError();
+        String errorText = registerPage.phoneNumberError();
         Assert.assertEquals(errorText, "*Phone Number is required");
-
     }
 
     @Test(groups = {"ErrorHandling"})
     public void wrongPasswordTest() {
-        this.landingPage.goTo();
-        this.landingPage.clickRegisterButton();
-        this.registerPage.enterPassword("");
-        this.registerPage.clickSubmitRegisterButton();
+        registerPage.enterPassword("");
+        registerPage.clickSubmitRegisterButton();
 
-        String errorText = this.registerPage.passwordError();
+        String errorText = registerPage.passwordError();
         Assert.assertEquals(errorText, "*Password is required");
-
     }
 
     @Test(groups = {"ErrorHandling"})
-    public void wrongConfirmPasswordTest(){
-        this.landingPage.goTo();
-        this.landingPage.clickRegisterButton();
-        this.registerPage.enterConfirmPassword("");
-        this.registerPage.clickSubmitRegisterButton();
+    public void wrongConfirmPasswordTest() {
+        registerPage.enterConfirmPassword("");
+        registerPage.clickSubmitRegisterButton();
 
-        String errorText = this.registerPage.confirmPasswordError();
+        String errorText = registerPage.confirmPasswordError();
         Assert.assertEquals(errorText, "Confirm Password is required");
     }
 
     @Test(groups = {"ErrorHandling"})
-    public void adultCheckboxNotSelectedTest(){
-        this.landingPage.goTo();
-        this.landingPage.clickRegisterButton();
-        this.registerPage.clickSubmitRegisterButton();
-        this.registerPage.adultCheckboxError();
+    public void adultCheckboxNotSelectedTest() {
+        registerPage.clickSubmitRegisterButton();
+        registerPage.adultCheckboxError();
 
-        String errorText = this.registerPage.adultCheckboxError();
+        String errorText = registerPage.adultCheckboxError();
         Assert.assertEquals(errorText, "*Please check above checkbox");
-
     }
 }

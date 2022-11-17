@@ -68,7 +68,6 @@ public class BaseTest {
         driver.manage().deleteAllCookies();
         return driver;
     }
-
     public List<HashMap<String, String>> getJsonDataToMap(String path) throws IOException {
 
         // read json to string
@@ -81,53 +80,45 @@ public class BaseTest {
                 });
         return data;
     }
-
     public String getScreenShoot(String testCaseName, WebDriver driver) throws IOException {
         TakesScreenshot ts = (TakesScreenshot) driver;
         File source = ts.getScreenshotAs(OutputType.FILE);
-        File file = new File("C:\\Projects\\SeleniumJava" + testCaseName + ".png");
+        File file = new File("C:\\Projects\\TestNGSelenium" + testCaseName + ".png");
         FileUtils.copyFile(source, file);
-        return "C:\\Projects\\SeleniumJava" + testCaseName + ".png";
+        return "C:\\Projects\\TestNGSelenium" + testCaseName + ".png";
 
     }
-
     @BeforeMethod(alwaysRun = true)
     public LandingPage launchLandingPageObject() {
         this.landingPage = new LandingPage(driver);
         return this.landingPage;
     }
-
     @BeforeMethod(alwaysRun = true)
     public RegisterPage launchRegisterObject() {
         this.registerPage = new RegisterPage(driver);
         return this.registerPage;
     }
-
     @BeforeMethod(alwaysRun = true)
     public ProductCataloge launchProductCatalogueObject() {
         this.productCataloge = new ProductCataloge(driver);
         return this.productCataloge;
     }
-
     @BeforeMethod(alwaysRun = true)
     public CartPage launchCartPageObject() {
         this.cartPage = new CartPage(driver);
         return this.cartPage;
     }
-
     @BeforeMethod(alwaysRun = true)
     public CheckoutPage launchCheckoutPageObject() {
         this.checkoutPage = new CheckoutPage(driver);
         return this.checkoutPage;
 
     }
-
     @BeforeMethod(alwaysRun = true)
     public ConfirmationPage launchConfirmationPageObject() {
         this.confirmationPage = new ConfirmationPage(driver);
         return this.confirmationPage;
     }
-
     @AfterMethod(alwaysRun = true)
     public void tearDown() {
         driver.quit();

@@ -12,16 +12,16 @@ public class LoginTests extends BaseTest {
 
     @DataProvider
     public Object[][] getData() throws IOException {
-        List<HashMap<String, String>> data = getJsonDataToMap("C:\\Projects\\SeleniumJava\\src\\test\\java\\rsa\\Data\\LoginData.json");
+        List<HashMap<String, String>> data = getJsonDataToMap("C:\\Projects\\TestNG Selenium RSA\\src\\test\\java\\rsa\\Data\\LoginData.json");
         return new Object[][]{{data.get(0)}, {data.get(1)}};
     }
 
     @Test(dataProvider = "getData")
     public void loginTest(HashMap<String, String> input) {
 
-        this.landingPage.goTo();
-        this.landingPage.enterUserEmail(input.get("email"));
-        this.landingPage.enterUserPassword(input.get("password"));
-        this.landingPage.clickLoginButton();
+        landingPage.goTo();
+        landingPage.enterUserEmail(input.get("email"));
+        landingPage.enterUserPassword(input.get("password"));
+        landingPage.clickLoginButton();
     }
 }
