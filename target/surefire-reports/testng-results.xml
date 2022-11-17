@@ -2,7 +2,7 @@
 <testng-results ignored="3" total="10" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-16T22:50:48 CET" name="RSA" finished-at="2022-11-16T22:51:19 CET" duration-ms="30990">
+  <suite started-at="2022-11-17T14:36:35 CET" name="RSA" finished-at="2022-11-17T14:37:01 CET" duration-ms="26248">
     <groups>
       <group name="ErrorHandling">
         <method signature="ErrorLoginTests.wrongPasswordTest()[pri:0, instance:rsa.Tests.ErrorLoginTests@7b2bbc3]" name="wrongPasswordTest" class="rsa.Tests.ErrorLoginTests"/>
@@ -14,263 +14,263 @@
         <method signature="ErrorRegisterTests.wrongPhoneNumberTest()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" name="wrongPhoneNumberTest" class="rsa.Tests.ErrorRegisterTests"/>
       </group> <!-- ErrorHandling -->
     </groups>
-    <test started-at="2022-11-16T22:50:48 CET" name="E2E" finished-at="2022-11-16T22:50:48 CET" duration-ms="11">
+    <test started-at="2022-11-17T14:36:35 CET" name="E2E" finished-at="2022-11-17T14:36:35 CET" duration-ms="16">
     </test> <!-- E2E -->
-    <test started-at="2022-11-16T22:50:48 CET" name="Login Tests" finished-at="2022-11-16T22:50:55 CET" duration-ms="7689">
+    <test started-at="2022-11-17T14:36:35 CET" name="Login Tests" finished-at="2022-11-17T14:36:41 CET" duration-ms="6430">
       <class name="rsa.Tests.ErrorLoginTests">
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:rsa.Tests.ErrorLoginTests@7b2bbc3]" started-at="2022-11-16T22:50:48 CET" name="initializeDriver" finished-at="2022-11-16T22:50:51 CET" duration-ms="3164" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:rsa.Tests.ErrorLoginTests@7b2bbc3]" started-at="2022-11-17T14:36:35 CET" name="initializeDriver" finished-at="2022-11-17T14:36:38 CET" duration-ms="2856" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="launchCartPageObject()[pri:0, instance:rsa.Tests.ErrorLoginTests@7b2bbc3]" started-at="2022-11-16T22:50:51 CET" name="launchCartPageObject" finished-at="2022-11-16T22:50:51 CET" duration-ms="23" status="PASS">
+        <test-method is-config="true" signature="launchCartPageObject()[pri:0, instance:rsa.Tests.ErrorLoginTests@7b2bbc3]" started-at="2022-11-17T14:36:38 CET" name="launchCartPageObject" finished-at="2022-11-17T14:36:38 CET" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchCartPageObject -->
-        <test-method is-config="true" signature="launchCheckoutPageObject()[pri:0, instance:rsa.Tests.ErrorLoginTests@7b2bbc3]" started-at="2022-11-16T22:50:51 CET" name="launchCheckoutPageObject" finished-at="2022-11-16T22:50:51 CET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchCheckoutPageObject()[pri:0, instance:rsa.Tests.ErrorLoginTests@7b2bbc3]" started-at="2022-11-17T14:36:38 CET" name="launchCheckoutPageObject" finished-at="2022-11-17T14:36:38 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchCheckoutPageObject -->
-        <test-method is-config="true" signature="launchConfirmationPageObject()[pri:0, instance:rsa.Tests.ErrorLoginTests@7b2bbc3]" started-at="2022-11-16T22:50:51 CET" name="launchConfirmationPageObject" finished-at="2022-11-16T22:50:51 CET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchConfirmationPageObject()[pri:0, instance:rsa.Tests.ErrorLoginTests@7b2bbc3]" started-at="2022-11-17T14:36:38 CET" name="launchConfirmationPageObject" finished-at="2022-11-17T14:36:38 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchConfirmationPageObject -->
-        <test-method is-config="true" signature="launchLandingPageObject()[pri:0, instance:rsa.Tests.ErrorLoginTests@7b2bbc3]" started-at="2022-11-16T22:50:51 CET" name="launchLandingPageObject" finished-at="2022-11-16T22:50:51 CET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchLandingPageObject()[pri:0, instance:rsa.Tests.ErrorLoginTests@7b2bbc3]" started-at="2022-11-17T14:36:38 CET" name="launchLandingPageObject" finished-at="2022-11-17T14:36:38 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchLandingPageObject -->
-        <test-method is-config="true" signature="launchProductCatalogueObject()[pri:0, instance:rsa.Tests.ErrorLoginTests@7b2bbc3]" started-at="2022-11-16T22:50:51 CET" name="launchProductCatalogueObject" finished-at="2022-11-16T22:50:51 CET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchProductCatalogueObject()[pri:0, instance:rsa.Tests.ErrorLoginTests@7b2bbc3]" started-at="2022-11-17T14:36:38 CET" name="launchProductCatalogueObject" finished-at="2022-11-17T14:36:38 CET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchProductCatalogueObject -->
-        <test-method is-config="true" signature="launchRegisterObject()[pri:0, instance:rsa.Tests.ErrorLoginTests@7b2bbc3]" started-at="2022-11-16T22:50:51 CET" name="launchRegisterObject" finished-at="2022-11-16T22:50:51 CET" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="launchRegisterObject()[pri:0, instance:rsa.Tests.ErrorLoginTests@7b2bbc3]" started-at="2022-11-17T14:36:38 CET" name="launchRegisterObject" finished-at="2022-11-17T14:36:38 CET" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchRegisterObject -->
-        <test-method signature="wrongPasswordTest()[pri:0, instance:rsa.Tests.ErrorLoginTests@7b2bbc3]" started-at="2022-11-16T22:50:51 CET" name="wrongPasswordTest" finished-at="2022-11-16T22:50:55 CET" duration-ms="4164" status="PASS">
+        <test-method signature="wrongPasswordTest()[pri:0, instance:rsa.Tests.ErrorLoginTests@7b2bbc3]" started-at="2022-11-17T14:36:38 CET" name="wrongPasswordTest" finished-at="2022-11-17T14:36:41 CET" duration-ms="3432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wrongPasswordTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:rsa.Tests.ErrorLoginTests@7b2bbc3]" started-at="2022-11-16T22:50:55 CET" name="tearDown" finished-at="2022-11-16T22:50:55 CET" duration-ms="287" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rsa.Tests.ErrorLoginTests@7b2bbc3]" started-at="2022-11-17T14:36:41 CET" name="tearDown" finished-at="2022-11-17T14:36:41 CET" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- rsa.Tests.ErrorLoginTests -->
     </test> <!-- Login Tests -->
-    <test started-at="2022-11-16T22:50:48 CET" name="Registration Tests" finished-at="2022-11-16T22:51:19 CET" duration-ms="30990">
+    <test started-at="2022-11-17T14:36:35 CET" name="Registration Tests" finished-at="2022-11-17T14:37:01 CET" duration-ms="26248">
       <class name="rsa.Tests.ErrorRegisterTests">
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:50:48 CET" name="initializeDriver" finished-at="2022-11-16T22:50:51 CET" duration-ms="3183" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:35 CET" name="initializeDriver" finished-at="2022-11-17T14:36:38 CET" duration-ms="2856" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="launchCartPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:50:51 CET" name="launchCartPageObject" finished-at="2022-11-16T22:50:51 CET" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="launchCartPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:38 CET" name="launchCartPageObject" finished-at="2022-11-17T14:36:38 CET" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchCartPageObject -->
-        <test-method is-config="true" signature="launchCheckoutPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:50:51 CET" name="launchCheckoutPageObject" finished-at="2022-11-16T22:50:51 CET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchCheckoutPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:38 CET" name="launchCheckoutPageObject" finished-at="2022-11-17T14:36:38 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchCheckoutPageObject -->
-        <test-method is-config="true" signature="launchConfirmationPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:50:51 CET" name="launchConfirmationPageObject" finished-at="2022-11-16T22:50:51 CET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchConfirmationPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:38 CET" name="launchConfirmationPageObject" finished-at="2022-11-17T14:36:38 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchConfirmationPageObject -->
-        <test-method is-config="true" signature="launchLandingPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:50:51 CET" name="launchLandingPageObject" finished-at="2022-11-16T22:50:51 CET" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="launchLandingPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:38 CET" name="launchLandingPageObject" finished-at="2022-11-17T14:36:38 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchLandingPageObject -->
-        <test-method is-config="true" signature="launchProductCatalogueObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:50:51 CET" name="launchProductCatalogueObject" finished-at="2022-11-16T22:50:51 CET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchProductCatalogueObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:38 CET" name="launchProductCatalogueObject" finished-at="2022-11-17T14:36:38 CET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchProductCatalogueObject -->
-        <test-method is-config="true" signature="launchRegisterObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:50:51 CET" name="launchRegisterObject" finished-at="2022-11-16T22:50:51 CET" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="launchRegisterObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:38 CET" name="launchRegisterObject" finished-at="2022-11-17T14:36:38 CET" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchRegisterObject -->
-        <test-method signature="adultCheckboxNotSelectedTest()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:50:51 CET" name="adultCheckboxNotSelectedTest" finished-at="2022-11-16T22:50:54 CET" duration-ms="3285" status="PASS">
+        <test-method signature="adultCheckboxNotSelectedTest()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:38 CET" name="adultCheckboxNotSelectedTest" finished-at="2022-11-17T14:36:41 CET" duration-ms="2687" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adultCheckboxNotSelectedTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:50:54 CET" name="tearDown" finished-at="2022-11-16T22:50:54 CET" duration-ms="245" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:41 CET" name="tearDown" finished-at="2022-11-17T14:36:41 CET" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:50:54 CET" name="initializeDriver" finished-at="2022-11-16T22:50:56 CET" duration-ms="1842" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:41 CET" name="initializeDriver" finished-at="2022-11-17T14:36:42 CET" duration-ms="1223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="launchCartPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:50:56 CET" name="launchCartPageObject" finished-at="2022-11-16T22:50:56 CET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="launchCartPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:42 CET" name="launchCartPageObject" finished-at="2022-11-17T14:36:42 CET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchCartPageObject -->
-        <test-method is-config="true" signature="launchCheckoutPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:50:56 CET" name="launchCheckoutPageObject" finished-at="2022-11-16T22:50:56 CET" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="launchCheckoutPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:42 CET" name="launchCheckoutPageObject" finished-at="2022-11-17T14:36:42 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchCheckoutPageObject -->
-        <test-method is-config="true" signature="launchConfirmationPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:50:56 CET" name="launchConfirmationPageObject" finished-at="2022-11-16T22:50:56 CET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchConfirmationPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:42 CET" name="launchConfirmationPageObject" finished-at="2022-11-17T14:36:42 CET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchConfirmationPageObject -->
-        <test-method is-config="true" signature="launchLandingPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:50:56 CET" name="launchLandingPageObject" finished-at="2022-11-16T22:50:56 CET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchLandingPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:42 CET" name="launchLandingPageObject" finished-at="2022-11-17T14:36:42 CET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchLandingPageObject -->
-        <test-method is-config="true" signature="launchProductCatalogueObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:50:56 CET" name="launchProductCatalogueObject" finished-at="2022-11-16T22:50:56 CET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchProductCatalogueObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:42 CET" name="launchProductCatalogueObject" finished-at="2022-11-17T14:36:42 CET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchProductCatalogueObject -->
-        <test-method is-config="true" signature="launchRegisterObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:50:56 CET" name="launchRegisterObject" finished-at="2022-11-16T22:50:56 CET" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="launchRegisterObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:42 CET" name="launchRegisterObject" finished-at="2022-11-17T14:36:42 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchRegisterObject -->
-        <test-method signature="wrongConfirmPasswordTest()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:50:56 CET" name="wrongConfirmPasswordTest" finished-at="2022-11-16T22:50:59 CET" duration-ms="3079" status="PASS">
+        <test-method signature="wrongConfirmPasswordTest()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:42 CET" name="wrongConfirmPasswordTest" finished-at="2022-11-17T14:36:45 CET" duration-ms="2669" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wrongConfirmPasswordTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:50:59 CET" name="tearDown" finished-at="2022-11-16T22:51:00 CET" duration-ms="201" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:45 CET" name="tearDown" finished-at="2022-11-17T14:36:45 CET" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:00 CET" name="initializeDriver" finished-at="2022-11-16T22:51:01 CET" duration-ms="1439" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:45 CET" name="initializeDriver" finished-at="2022-11-17T14:36:46 CET" duration-ms="1190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="launchCartPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:01 CET" name="launchCartPageObject" finished-at="2022-11-16T22:51:01 CET" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="launchCartPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:46 CET" name="launchCartPageObject" finished-at="2022-11-17T14:36:46 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchCartPageObject -->
-        <test-method is-config="true" signature="launchCheckoutPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:01 CET" name="launchCheckoutPageObject" finished-at="2022-11-16T22:51:01 CET" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="launchCheckoutPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:46 CET" name="launchCheckoutPageObject" finished-at="2022-11-17T14:36:46 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchCheckoutPageObject -->
-        <test-method is-config="true" signature="launchConfirmationPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:01 CET" name="launchConfirmationPageObject" finished-at="2022-11-16T22:51:01 CET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchConfirmationPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:46 CET" name="launchConfirmationPageObject" finished-at="2022-11-17T14:36:46 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchConfirmationPageObject -->
-        <test-method is-config="true" signature="launchLandingPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:01 CET" name="launchLandingPageObject" finished-at="2022-11-16T22:51:01 CET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchLandingPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:46 CET" name="launchLandingPageObject" finished-at="2022-11-17T14:36:46 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchLandingPageObject -->
-        <test-method is-config="true" signature="launchProductCatalogueObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:01 CET" name="launchProductCatalogueObject" finished-at="2022-11-16T22:51:01 CET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchProductCatalogueObject -->
-        <test-method is-config="true" signature="launchRegisterObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:01 CET" name="launchRegisterObject" finished-at="2022-11-16T22:51:01 CET" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="launchRegisterObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:46 CET" name="launchRegisterObject" finished-at="2022-11-17T14:36:46 CET" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchRegisterObject -->
-        <test-method signature="wrongEmailTest()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:01 CET" name="wrongEmailTest" finished-at="2022-11-16T22:51:04 CET" duration-ms="2942" status="PASS">
+        <test-method is-config="true" signature="launchProductCatalogueObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:46 CET" name="launchProductCatalogueObject" finished-at="2022-11-17T14:36:46 CET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchProductCatalogueObject -->
+        <test-method signature="wrongEmailTest()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:46 CET" name="wrongEmailTest" finished-at="2022-11-17T14:36:49 CET" duration-ms="2838" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wrongEmailTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:04 CET" name="tearDown" finished-at="2022-11-16T22:51:04 CET" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:49 CET" name="tearDown" finished-at="2022-11-17T14:36:49 CET" duration-ms="59" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:04 CET" name="initializeDriver" finished-at="2022-11-16T22:51:06 CET" duration-ms="1380" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:49 CET" name="initializeDriver" finished-at="2022-11-17T14:36:50 CET" duration-ms="1203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="launchCartPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:06 CET" name="launchCartPageObject" finished-at="2022-11-16T22:51:06 CET" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchCartPageObject -->
-        <test-method is-config="true" signature="launchCheckoutPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:06 CET" name="launchCheckoutPageObject" finished-at="2022-11-16T22:51:06 CET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchCheckoutPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:50 CET" name="launchCheckoutPageObject" finished-at="2022-11-17T14:36:50 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchCheckoutPageObject -->
-        <test-method is-config="true" signature="launchConfirmationPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:06 CET" name="launchConfirmationPageObject" finished-at="2022-11-16T22:51:06 CET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchCartPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:50 CET" name="launchCartPageObject" finished-at="2022-11-17T14:36:50 CET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchConfirmationPageObject -->
-        <test-method is-config="true" signature="launchLandingPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:06 CET" name="launchLandingPageObject" finished-at="2022-11-16T22:51:06 CET" duration-ms="1" status="PASS">
+        </test-method> <!-- launchCartPageObject -->
+        <test-method is-config="true" signature="launchLandingPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:50 CET" name="launchLandingPageObject" finished-at="2022-11-17T14:36:50 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchLandingPageObject -->
-        <test-method is-config="true" signature="launchProductCatalogueObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:06 CET" name="launchProductCatalogueObject" finished-at="2022-11-16T22:51:06 CET" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="launchConfirmationPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:50 CET" name="launchConfirmationPageObject" finished-at="2022-11-17T14:36:50 CET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchConfirmationPageObject -->
+        <test-method is-config="true" signature="launchProductCatalogueObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:50 CET" name="launchProductCatalogueObject" finished-at="2022-11-17T14:36:50 CET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchProductCatalogueObject -->
-        <test-method is-config="true" signature="launchRegisterObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:06 CET" name="launchRegisterObject" finished-at="2022-11-16T22:51:06 CET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchRegisterObject -->
-        <test-method signature="wrongFirstNameTest()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:06 CET" name="wrongFirstNameTest" finished-at="2022-11-16T22:51:09 CET" duration-ms="3169" status="PASS">
+        <test-method signature="wrongFirstNameTest()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:50 CET" name="wrongFirstNameTest" finished-at="2022-11-17T14:36:53 CET" duration-ms="2633" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wrongFirstNameTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:09 CET" name="tearDown" finished-at="2022-11-16T22:51:09 CET" duration-ms="192" status="PASS">
+        <test-method is-config="true" signature="launchRegisterObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:50 CET" name="launchRegisterObject" finished-at="2022-11-17T14:36:50 CET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchRegisterObject -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:53 CET" name="tearDown" finished-at="2022-11-17T14:36:53 CET" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:09 CET" name="initializeDriver" finished-at="2022-11-16T22:51:10 CET" duration-ms="1278" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:53 CET" name="initializeDriver" finished-at="2022-11-17T14:36:54 CET" duration-ms="1194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="launchCartPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:10 CET" name="launchCartPageObject" finished-at="2022-11-16T22:51:10 CET" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="launchCartPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:54 CET" name="launchCartPageObject" finished-at="2022-11-17T14:36:54 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchCartPageObject -->
-        <test-method is-config="true" signature="launchCheckoutPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:10 CET" name="launchCheckoutPageObject" finished-at="2022-11-16T22:51:10 CET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchCheckoutPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:54 CET" name="launchCheckoutPageObject" finished-at="2022-11-17T14:36:54 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchCheckoutPageObject -->
-        <test-method is-config="true" signature="launchConfirmationPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:10 CET" name="launchConfirmationPageObject" finished-at="2022-11-16T22:51:10 CET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchConfirmationPageObject -->
-        <test-method is-config="true" signature="launchLandingPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:10 CET" name="launchLandingPageObject" finished-at="2022-11-16T22:51:10 CET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchLandingPageObject -->
-        <test-method is-config="true" signature="launchProductCatalogueObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:10 CET" name="launchProductCatalogueObject" finished-at="2022-11-16T22:51:10 CET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="launchProductCatalogueObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:54 CET" name="launchProductCatalogueObject" finished-at="2022-11-17T14:36:54 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchProductCatalogueObject -->
-        <test-method signature="wrongPasswordTest()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:10 CET" name="wrongPasswordTest" finished-at="2022-11-16T22:51:13 CET" duration-ms="3308" status="PASS">
+        <test-method is-config="true" signature="launchLandingPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:54 CET" name="launchLandingPageObject" finished-at="2022-11-17T14:36:54 CET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchLandingPageObject -->
+        <test-method is-config="true" signature="launchConfirmationPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:54 CET" name="launchConfirmationPageObject" finished-at="2022-11-17T14:36:54 CET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchConfirmationPageObject -->
+        <test-method is-config="true" signature="launchRegisterObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:54 CET" name="launchRegisterObject" finished-at="2022-11-17T14:36:54 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchRegisterObject -->
+        <test-method signature="wrongPasswordTest()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:54 CET" name="wrongPasswordTest" finished-at="2022-11-17T14:36:57 CET" duration-ms="2733" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wrongPasswordTest -->
-        <test-method is-config="true" signature="launchRegisterObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:10 CET" name="launchRegisterObject" finished-at="2022-11-16T22:51:10 CET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchRegisterObject -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:13 CET" name="tearDown" finished-at="2022-11-16T22:51:14 CET" duration-ms="181" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:57 CET" name="tearDown" finished-at="2022-11-17T14:36:57 CET" duration-ms="72" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:14 CET" name="initializeDriver" finished-at="2022-11-16T22:51:15 CET" duration-ms="1336" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:57 CET" name="initializeDriver" finished-at="2022-11-17T14:36:58 CET" duration-ms="1087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="launchCartPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:15 CET" name="launchCartPageObject" finished-at="2022-11-16T22:51:15 CET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchCartPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:58 CET" name="launchCartPageObject" finished-at="2022-11-17T14:36:58 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchCartPageObject -->
-        <test-method is-config="true" signature="launchCheckoutPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:15 CET" name="launchCheckoutPageObject" finished-at="2022-11-16T22:51:15 CET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="launchCheckoutPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:58 CET" name="launchCheckoutPageObject" finished-at="2022-11-17T14:36:58 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchCheckoutPageObject -->
-        <test-method is-config="true" signature="launchConfirmationPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:15 CET" name="launchConfirmationPageObject" finished-at="2022-11-16T22:51:15 CET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="launchConfirmationPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:58 CET" name="launchConfirmationPageObject" finished-at="2022-11-17T14:36:58 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchConfirmationPageObject -->
-        <test-method is-config="true" signature="launchProductCatalogueObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:15 CET" name="launchProductCatalogueObject" finished-at="2022-11-16T22:51:15 CET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchProductCatalogueObject -->
-        <test-method is-config="true" signature="launchLandingPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:15 CET" name="launchLandingPageObject" finished-at="2022-11-16T22:51:15 CET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="launchLandingPageObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:58 CET" name="launchLandingPageObject" finished-at="2022-11-17T14:36:58 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchLandingPageObject -->
-        <test-method signature="wrongPhoneNumberTest()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:15 CET" name="wrongPhoneNumberTest" finished-at="2022-11-16T22:51:18 CET" duration-ms="3396" status="PASS">
+        <test-method is-config="true" signature="launchProductCatalogueObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:58 CET" name="launchProductCatalogueObject" finished-at="2022-11-17T14:36:58 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- wrongPhoneNumberTest -->
-        <test-method is-config="true" signature="launchRegisterObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:15 CET" name="launchRegisterObject" finished-at="2022-11-16T22:51:15 CET" duration-ms="0" status="PASS">
+        </test-method> <!-- launchProductCatalogueObject -->
+        <test-method is-config="true" signature="launchRegisterObject()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:58 CET" name="launchRegisterObject" finished-at="2022-11-17T14:36:58 CET" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchRegisterObject -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-16T22:51:18 CET" name="tearDown" finished-at="2022-11-16T22:51:19 CET" duration-ms="233" status="PASS">
+        <test-method signature="wrongPhoneNumberTest()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:36:58 CET" name="wrongPhoneNumberTest" finished-at="2022-11-17T14:37:01 CET" duration-ms="3326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongPhoneNumberTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rsa.Tests.ErrorRegisterTests@765d7657]" started-at="2022-11-17T14:37:01 CET" name="tearDown" finished-at="2022-11-17T14:37:01 CET" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
